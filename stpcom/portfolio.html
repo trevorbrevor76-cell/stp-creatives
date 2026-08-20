@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="STP Creatives portfolio — Photography, Videography and Graphic Design work in Uganda.">
+
+    <title>Portfolio | STP Creatives</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <a class="brand" href="index.html">
+            <strong>STP</strong>
+            <span>CREATIVES</span>
+        </a>
+        <nav id="nav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html" class="active">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a class="top-cta" href="contact.html">Let's Work <span>↗</span></a>
+        <button class="menu" id="menu" aria-label="Menu"><i></i><i></i></button>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="wrap">
+                <p class="kicker reveal">SELECTED WORK</p>
+                <h1>OUR<br><span>PORTFOLIO.</span></h1>
+                <p class="lead reveal">A selection of projects across photography, film and design — each one crafted to make an impact.</p>
+            </div>
+        </section>
+
+        <section class="portfolio portfolio-page">
+            <div class="wrap">
+                <div class="filters"><button class="active" data-filter="all">All</button><button data-filter="photo">Photo</button><button data-filter="video">Video</button><button data-filter="design">Design</button><button data-filter="music">Music</button></div>
+                <div class="portfolio-grid">
+                    <article class="work wide photo"><img src="assets/images/portfolio-01.jpg" alt="STP photography project">
+                        <div><small>PHOTOGRAPHY</small>
+                            <h3>Urban Stories</h3>
+                        </div>
+                    </article>
+                    <article class="work video"><img src="assets/images/portfolio-02.jpg" alt="STP videography project">
+                        <div><small>VIDEOGRAPHY</small>
+                            <h3>Motion & Rhythm</h3>
+                        </div>
+                    </article>
+                    <article class="work design"><img src="assets/images/portfolio-03.jpg" alt="STP graphic design project">
+                        <div><small>GRAPHICS</small>
+                            <h3>Brand Identity</h3>
+                        </div>
+                    </article>
+                    <article class="work photo"><img src="assets/images/portfolio-04.jpg" alt="STP photography project">
+                        <div><small>PHOTOGRAPHY</small>
+                            <h3>Golden Hour</h3>
+                        </div>
+                    </article>
+                    <article class="work wide video"><img src="assets/images/portfolio-05.jpg" alt="STP video production project">
+                        <div><small>VIDEOGRAPHY</small>
+                            <h3>Beyond The Frame</h3>
+                        </div>
+                    </article>
+                    <article class="work design"><img src="assets/images/portfolio-06.jpg" alt="STP graphic design project">
+                        <div><small>GRAPHICS</small>
+                            <h3>Visual Culture</h3>
+                        </div>
+                    </article>
+                    <article class="work photo"><img src="assets/images/about.jpg" alt="Studio portrait photography">
+                        <div><small>PHOTOGRAPHY</small>
+                            <h3>Studio Portraits</h3>
+                        </div>
+                    </article>
+                    <article class="work video"><img src="assets/images/hero.jpg" alt="Cinematic video still">
+                        <div><small>VIDEOGRAPHY</small>
+                            <h3>Cinematic Reel</h3>
+                        </div>
+                    </article>
+                    <article class="work design"><img src="assets/images/website-mockup.png" alt="Website design mockup">
+                        <div><small>DESIGN</small>
+                            <h3>Digital Experience</h3>
+                        </div>
+                    </article>
+                    <article class="work wide music"><img src="assets/images/hero.jpg" alt="Music production project">
+                        <div><small>MUSIC PRODUCTION</small>
+                            <h3>Studio Sessions</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="statement">
+            <div class="statement-bg"></div>
+            <div class="statement-copy reveal">
+                <p class="kicker">YOUR PROJECT NEXT</p>
+                <h2>YOUR STORY<br><span>COULD BE</span><br>OUR <em>NEXT.</em></h2>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="wrap">
+                <div class="contact-head reveal">
+                    <p class="kicker">LET'S CREATE</p>
+                    <h2>LIKE WHAT<br><span>YOU SEE?</span></h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p>Tell us about your next project and let's create something unforgettable together.</p>
+                        <div class="contact-details"><a href="mailto:hello@stpcreatives.com"><small>EMAIL</small>hello@stpcreatives.com</a><a href="https://wa.me/256700000000" target="_blank"><small>WHATSAPP</small>+256 700 000 000</a>
+                            <div><small>LOCATION</small>Kampala, Uganda</div>
+                        </div>
+                    </div>
+                    <form id="contactForm">
+                        <div class="two"><label>YOUR NAME<input name="name" required placeholder="Your name"></label><label>EMAIL<input type="email" name="email" required placeholder="you@email.com"></label></div><label>SERVICE<select name="service"><option>Photography</option><option>Videography</option><option>Graphic Design</option><option>Branding</option><option>Music Production</option><option>Multiple Services</option></select></label><label>PROJECT DETAILS<textarea name="message" required rows="6" placeholder="Tell us about your project..."></textarea></label>
+                        <button class="send" type="submit">SEND INQUIRY <span>↗</span></button>
+                        <p id="formMessage"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-main wrap">
+            <div><a class="brand" href="index.html"><strong>STP</strong><span>CREATIVES</span></a>
+                <p>Photography. Videography. Graphic Design.<br>One team. Endless possibilities.</p>
+            </div>
+            <div class="footer-cols">
+                <div><small>NAVIGATE</small><a href="index.html">Home</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+                <div><small>SOCIAL</small>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram" title="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                        <a href="#" aria-label="Facebook" title="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                        <a href="#" aria-label="TikTok" title="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"></path></svg></a>
+                        <a href="#" aria-label="YouTube" title="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+                    </div>
+                </div>
+                <div><small>CONTACT</small><a href="mailto:hello@stpcreatives.com">Email</a><a href="https://wa.me/256700000000">WhatsApp</a><span>Kampala, Uganda</span></div>
+            </div>
+        </div>
+        <div class="footer-bottom wrap"><span>© <span id="year2"></span> STP CREATIVES. ALL RIGHTS RESERVED.</span><span>MADE WITH <b>✦</b> IN UGANDA</span></div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
